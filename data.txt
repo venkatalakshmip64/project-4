@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarada Devi Palinki | Portfolio</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #023e8a;
+    }
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    /* Sections */
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    section h2 {
+      margin-bottom: 1rem;
+      color: #0077b6;
+      border-bottom: 2px solid #00b4d8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      margin-left: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+    ul li::before {
+      content: "•";
+      color: #00b4d8;
+      position: absolute;
+      left: 0;
+    }
+    /* Contact & Social */
+    .contact, .social {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .card {
+      flex: 1;
+      background: #f1faff;
+      padding: 1rem;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0077b6;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Palinki Sarada Devi</h1>
+    <p>B.Sc Computer Science | Aspiring Web Developer</p>
+  </header>
+
+  <!-- Career Objective -->
+  <section>
+    <h2>Career Objective</h2>
+    <p>
+      To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field.
+    </p>
+  </section>
+
+  <!-- Contact Info -->
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <div class="card"><strong>Phone:</strong> 7569682970</div>
+      <div class="card"><strong>Email:</strong> saradadevipalinki1402@gmail.com</div>
+      <div class="card"><strong>Location:</strong> Gandhinagar, Gollaprolu, Andhra Pradesh</div>
+      <div class="card"><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/sarada">linkedin.com/in/sarada</a></div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><b>B.Sc Computer Science</b> – Aditya Degree College, Kakinada (8.6 GPA, till current)</li>
+      <li><b>Intermediate</b> – Government Junior College, Gollaprolu (74%)</li>
+      <li><b>SSC</b> – Z.P.P.G.H. School, Gollaprolu (8.0 GPA)</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Pearson MEPRO</li>
+      <li>NPTEL – Cloud Computing</li>
+      <li>MERN Full Stack – Certiport</li>
+      <li>Programming in C – Cisco</li>
+      <li>Cyber Security – Infosys</li>
+      <li>Data Analytics & Networking – NetAcad</li>
+      <li>General AI – Microsoft</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><b>Lucky Number Generator App</b> – Generates secure passwords based on user’s lucky numbers.</li>
+      <li><b>Electricity Bill System</b> – Created a bill management system for electricity usage.</li>
+    </ul>
+  </section>
+
+  <!-- Internship -->
+  <section>
+    <h2>Internship</h2>
+    <p>
+      <b>MERN Full Stack Developer Intern</b> – Adhoc Network, Visakhapatnam <br>
+      Duration: 2 months (May – June 2025). Gained hands-on experience in HTML, CSS, and full stack web development.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>C, Java, DBMS, Python</li>
+      <li>Web Development (HTML, CSS)</li>
+      <li>MS Office</li>
+    </ul>
+  </section>
+
+  <!-- Strengths -->
+  <section>
+    <h2>Strengths</h2>
+    <ul>
+      <li>Good Communication</li>
+      <li>Leadership & Teamwork</li>
+      <li>Adaptability & Motivation</li>
+      <li>Quick Learner</li>
+    </ul>
+  </section>
+
+  <!-- Interests -->
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Anchoring</li>
+      <li>Meditation & Art</li>
+      <li>Community Involvement</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Palinki Sarada Devi | Built with ❤️</p>
+  </footer>
+</body>
+</html>
